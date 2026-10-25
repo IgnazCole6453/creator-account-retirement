@@ -1,0 +1,11 @@
+[package]
+name = "creator-account-retirement"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/account_deletion.rs"
+
+[[bin]]
+name = "account-retirement"
+path = "src/main.rs"

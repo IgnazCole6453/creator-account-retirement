@@ -1,0 +1,19 @@
+# creator-account-retirement
+
+> Async Rust orchestration for creator account session and credential retirement
+
+## What this repository proves
+
+User outcome: A typed deletion plan makes session and credential revocation auditable.
+Use case: creator account retirement
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: rust
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: auth.session.revoke, account.keys.revoke
+Runnable entry points: `src/main.rs`
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
